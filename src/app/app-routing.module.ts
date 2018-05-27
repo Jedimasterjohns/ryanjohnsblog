@@ -7,7 +7,7 @@ const appRoutes: Routes = [
   {
     path: '',
     loadChildren: 'app/modules/reader/reader.module#ReaderModule'
-  },
+  },  
   {
     path: 'editor',
     loadChildren: 'app/modules/editor/editor.module#EditorModule'

@@ -12,7 +12,7 @@ import { AppRoutingModule } from './app-routing.module';
     PageNotFoundComponent
   ],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({ appId: 'ryan-johns-blog' }),
     AppRoutingModule
   ],
   providers: [],
